@@ -34,22 +34,22 @@ installed: /etc/systemd/system/v2ray@.service
 
 ### 安裝和更新 V2Ray
 
-```
-// 安裝執行檔和 .dat 資料檔
-# bash <(curl -L https://raw.githubusercontent.com/mhycy/fhs-install-v2ray/master/install-release.sh)
+```bash
+# 安裝執行檔和 .dat 資料檔
+bash <(curl -L https://raw.githubusercontent.com/mhycy/fhs-install-v2ray/master/install-release.sh)
 ```
 
 ### 安裝最新發行的 geoip.dat 和 geosite.dat
 
-```
-// 只更新 .dat 資料檔
-# bash <(curl -L https://raw.githubusercontent.com/mhycy/fhs-install-v2ray/master/install-dat-release.sh)
+```bash
+# 只更新 .dat 資料檔
+bash <(curl -L https://raw.githubusercontent.com/mhycy/fhs-install-v2ray/master/install-dat-release.sh)
 ```
 
 ### 移除 V2Ray
 
-```
-# bash <(curl -L https://raw.githubusercontent.com/mhycy/fhs-install-v2ray/master/install-release.sh) --remove
+```bash
+bash <(curl -L https://raw.githubusercontent.com/mhycy/fhs-install-v2ray/master/install-release.sh) --remove
 ```
 
 ### 解決問題
