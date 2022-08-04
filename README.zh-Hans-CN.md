@@ -36,36 +36,36 @@ installed: /etc/systemd/system/v2ray@.service
 
 ```
 // 安装可执行文件和 .dat 数据文件
-# bash <(curl -L https://raw.githubusercontent.com/v2fly/fhs-install-v2ray/master/install-release.sh)
+# bash <(curl -L https://raw.githubusercontent.com/mhycy/fhs-install-v2ray/master/install-release.sh)
 ```
 
 ### 安装最新发行的 geoip.dat 和 geosite.dat
 
 ```
 // 只更新 .dat 数据文件
-# bash <(curl -L https://raw.githubusercontent.com/v2fly/fhs-install-v2ray/master/install-dat-release.sh)
+# bash <(curl -L https://raw.githubusercontent.com/mhycy/fhs-install-v2ray/master/install-dat-release.sh)
 ```
 
 ### 移除 V2Ray
 
 ```
-# bash <(curl -L https://raw.githubusercontent.com/v2fly/fhs-install-v2ray/master/install-release.sh) --remove
+# bash <(curl -L https://raw.githubusercontent.com/mhycy/fhs-install-v2ray/master/install-release.sh) --remove
 ```
 
 ### 解决问题
 
-* 「[不安装或更新 geoip.dat 和 geosite.dat](https://github.com/v2fly/fhs-install-v2ray/wiki/Do-not-install-or-update-geoip.dat-and-geosite.dat-zh-Hans-CN)」。
-* 「[使用证书时权限不足](https://github.com/v2fly/fhs-install-v2ray/wiki/Insufficient-permissions-when-using-certificates-zh-Hans-CN)」。
-* 「[从旧脚本迁移至此](https://github.com/v2fly/fhs-install-v2ray/wiki/Migrate-from-the-old-script-to-this-zh-Hans-CN)」。
-* 「[将 .dat 文档由 lib 目录移动到 share 目录](https://github.com/v2fly/fhs-install-v2ray/wiki/Move-.dat-files-from-lib-directory-to-share-directory-zh-Hans-CN)」。
-* 「[使用 VLESS 协议](https://github.com/v2fly/fhs-install-v2ray/wiki/To-use-the-VLESS-protocol-zh-Hans-CN)」。
+* 「[不安装或更新 geoip.dat 和 geosite.dat](https://github.com/mhycy/fhs-install-v2ray/wiki/Do-not-install-or-update-geoip.dat-and-geosite.dat-zh-Hans-CN)」。
+* 「[使用证书时权限不足](https://github.com/mhycy/fhs-install-v2ray/wiki/Insufficient-permissions-when-using-certificates-zh-Hans-CN)」。
+* 「[从旧脚本迁移至此](https://github.com/mhycy/fhs-install-v2ray/wiki/Migrate-from-the-old-script-to-this-zh-Hans-CN)」。
+* 「[将 .dat 文档由 lib 目录移动到 share 目录](https://github.com/mhycy/fhs-install-v2ray/wiki/Move-.dat-files-from-lib-directory-to-share-directory-zh-Hans-CN)」。
+* 「[使用 VLESS 协议](https://github.com/mhycy/fhs-install-v2ray/wiki/To-use-the-VLESS-protocol-zh-Hans-CN)」。
 
 > 若您的问题没有在上方列出，欢迎在 Issue 区提出。
 
-**提问前请先阅读 [Issue #63](https://github.com/v2fly/fhs-install-v2ray/issues/63)，否则可能无法得到解答并被锁定。**
+**提问前请先阅读 [Issue #63](https://github.com/mhycy/fhs-install-v2ray/issues/63)，否则可能无法得到解答并被锁定。**
 
 ## 贡献
 
-请于 [develop](https://github.com/v2fly/fhs-install-v2ray/tree/develop) 分支进行，以避免对主分支造成破坏。
+请于 [develop](https://github.com/mhycy/fhs-install-v2ray/tree/develop) 分支进行，以避免对主分支造成破坏。
 
 待确定无误后，两分支将进行合并。
